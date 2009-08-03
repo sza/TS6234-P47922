@@ -1,0 +1,12 @@
+<h1>Senarai Barangan</h1>
+<p>Sila klik pada barangan untuk lihat perincian</p>
+
+<ul>
+
+<% for ad in @ads %>
+
+  <li><a href="/ads/<%= ad.id %>">  <%= ad.heading %>  <a>-->RM</a> <%= ad.price %> 
+  </a>
+  </li>
+<% end %>
+</ul>

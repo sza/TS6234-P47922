@@ -1,0 +1,376 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="LTR" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<title>Buy or sell Antiques Tuscany London Yorkshire</title>
+<base href="http://www.arteutile.net/antico/">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<!-- header //-->
+<table class="main_table" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr height="50">
+
+<td class="top_cell" align="center" bgcolor="white" height="50">
+<table width="775" border="0" cellspacing="0" cellpadding="0" height="50">
+<tr>
+<td class="banner_cell" colspan="2" align="left" valign="bottom">antiquestobuy.com </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="25">
+<td class="navigation_cell" align="center" valign="middle" height="25">
+<table border="0" width="775" cellspacing="0" cellpadding="1">
+<tr class="headerNavigation">
+<td class="headerNavigation">&nbsp;&nbsp;<a href="http://www.arteutile.net" class="headerNavigation">ARTeUTILe</a> &raquo; <a href="http://www.arteutile.net/antico/index.php?cPath=0" class="headerNavigation">Antiques to buy</a></td>
+<td align="right" class="headerNavigation"> &nbsp; <a href="http://www.arteutile.net/antico/shopping_cart.php" class="headerNavigation">Basket Contents</a> &nbsp;|
+&nbsp; <a href="http://www.arteutile.net/antico/express_an_interest.php" class="headerNavigation">Express An Interest</a> 
+<!--&nbsp;&nbsp;| <a href="http://www.arteutile.net/antico/checkout_shipping.php" class="headerNavigation">Buy Now</a> &nbsp;&nbsp;-->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr height="100%">
+<td class="main_cell" align="center" valign="top" height="100%">
+
+
+
+<div align="center">
+<table class="content_table" width="775" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="cell_left" colspan="2" align="center" valign="top"><!-- header_eof //-->
+
+<!-- body //-->
+<table border="0" width="100%" cellspacing="3" cellpadding="3">
+  <tr>
+    <td width="125" valign="top"><table border="0" width="125" cellspacing="0" cellpadding="2">
+<!-- left_navigation //-->
+<!-- categories //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Categories</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><table><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=12">Private collection for sale</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=2">PAINTINGS</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=8">PRINTS</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=1">FURNITURE</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=10">VASES</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=5">PLATES</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=11">MIRRORS</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=7">CLOCKS</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=3">CHANDELIERS</a></td></tr><tr><td class="tcf_categorycell">&nbsp;&nbsp;<a class="tcf_nav_link" href="http://www.arteutile.net/antico/index.php?cPath=9">COLLECTABLES</a></td></tr></table></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- categories_eof //-->
+<!-- specials //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Featured Products</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.arteutile.net/antico/product_info.php?products_id=662"><img src="images/662.jpg" border="0" alt="Property of a Lady" title=" Property of a Lady " width="135" height="135"></a><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/product_info.php?products_id=662">Property of a Lady</a><br>10.000.00EUR</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- specials_eof //-->
+<!-- specials //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Specials</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.arteutile.net/antico/product_info.php?products_id=177"><img src="images/smallvarie33.JPG" border="0" alt="Hunting horn" title=" Hunting horn " width="135" height="135"></a><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/product_info.php?products_id=177">Hunting horn</a><br><s>150.00EUR</s><br><span class="productSpecialPrice">90.00EUR</span></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- specials_eof //-->
+<!-- left_navigation_eof //-->
+    </table></td>
+<!-- body_text //-->
+    <td width="100%" valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="pageHeading">Buy or sell Antiques</td>
+            <td width="1"></td>
+          </tr>
+
+          <tr>
+            <td class="">
+
+<b> Add your antiques for sale  -  FREE </b>
+
+ 
+
+</td>
+            <td width="1"></td>
+          </tr>
+
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+          <tr>
+            <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+              <tr>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_12"><img src="images/cassettonesmall.jpg" border="0" alt="Private collection for sale" title=" Private collection for sale " width="150" height="114"><br>Private collection for sale</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_2"><img src="images/smallquadro03.JPG" border="0" alt="PAINTINGS" title=" PAINTINGS " width="108" height="150"><br>PAINTINGS</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_8"><img src="images/smallstampi08.JPG" border="0" alt="PRINTS" title=" PRINTS " width="98" height="150"><br>PRINTS</a></td>
+              </tr>
+              <tr>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_1"><img src="images/smallmobili22.JPG" border="0" alt="FURNITURE" title=" FURNITURE " width="100" height="150"><br>FURNITURE</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_10"><img src="images/smallvasi05.JPG" border="0" alt="VASES" title=" VASES " width="93" height="150"><br>VASES</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_5"><img src="images/smallpiatti04.JPG" border="0" alt="PLATES" title=" PLATES " width="150" height="147"><br>PLATES</a></td>
+              </tr>
+              <tr>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_11"><img src="images/smallmobili08.JPG" border="0" alt="MIRRORS" title=" MIRRORS " width="100" height="150"><br>MIRRORS</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_7"><img src="images/smallorologi04.JPG" border="0" alt="CLOCKS" title=" CLOCKS " width="113" height="150"><br>CLOCKS</a></td>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_3"><img src="images/lampade02small.JPG" border="0" alt="CHANDELIERS" title=" CHANDELIERS " width="110" height="150"><br>CHANDELIERS</a></td>
+              </tr>
+              <tr>
+                <td align="center" class="smallText" style="width: 33%" valign="top"><a class="tcf_categorylink" href="http://www.arteutile.net/antico/index.php?cPath=0_9"><img src="images/smallvarie01.JPG" border="0" alt="COLLECTABLES" title=" COLLECTABLES " width="117" height="150"><br>COLLECTABLES</a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+<!-- body_text_eof //-->
+    <td width="125" valign="top"><table border="0" width="125" cellspacing="0" cellpadding="2">
+<!-- right_navigation //-->
+<!-- languages //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Languages</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"> <a href="http://www.arteutile.net/antico/index.php?cPath=0&language=en"><img src="includes/languages/english/images/icon.gif" border="0" alt="English" title=" English " width="24" height="15"></a>  <a href="http://www.arteutile.net/antico/index.php?cPath=0&language=it"><img src="includes/languages/italian/images/icon.gif" border="0" alt="Italiano" title=" Italiano " width="24" height="15"></a> </td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- languages_eof //-->
+<!-- currencies //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Currencies</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><form name="currencies" action="http://www.arteutile.net/antico/index.php" method="get"><select name="currency" onChange="this.form.submit();" style="width: 100%"><option value="USD">US Dollar</option><option value="EUR" SELECTED>Euro</option><option value="GBP">Pound</option></select><input type="hidden" name="cPath" value="0"><input type="hidden" name="language" value="en"></form></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- currencies_eof //-->
+<!-- search //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Quick Find</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><form name="quick_find" action="http://www.arteutile.net/antico/advanced_search_result.php" method="get"><input type="text" name="keywords" size="10" maxlength="30" style="width: 95px">&nbsp;<input type="image" src="includes/languages/english/images/buttons/button_quick_find.gif" border="0" alt="Quick Find" title=" Quick Find "><br><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/advanced_search.php"><b>Advanced Search</b></a></form></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- search_eof //-->
+<!-- information //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" height="14" class="infoBoxHeading">Information</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><a class="tcf_nav_link" href="http://www.arteutile.net/antico/shipping.php">Delivery And Returns</a><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/privacy.php">Privacy Notice</a><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/conditions.php">Terms And Conditions</a><br><a class="tcf_nav_link" href="http://www.arteutile.net/antico/contact_us.php">Contact Us</a></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- information_eof //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+        <td width="100%" height="14" class="infoBoxHeading">New Nuovo</td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="nav_infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="nav_infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+              <td align="center" class="boxText"> <a href="http://www.arteutile.net/antico/member/index.php?language=en">
+			  <font color="white"> Sell your antiques </font></a> 
+				<br>
+				<br>
+				<br>
+                <a href="http://www.arteutile.net/antico/member/index.php?language=it">
+				<font color="white">Vendi il tuo antiquariato</a></font></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr><!-- right_navigation_eof //-->
+    </table></td>
+
+  </tr>
+</table>
+<!-- body_eof //-->
+
+<!-- footer //-->
+</td>
+</tr>
+</table>
+</div>
+
+
+</td>
+</tr>
+<tr height="30">
+<td class="bot_cell" align="center" valign="middle" height="30">
+<table width="775" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="bot_left_cell" align="left" valign="middle">
+<a class="footerNavigation" href="http://www.arteutile.net" /> ARTeUTILe </a> |
+<a class="footerNavigation" href="http://www.arteutile.net/antico/member/index.php?language=en" /> Sell your antiques </a> |
+<a class="footerNavigation" href="http://www.arteutile.net/art_holiday/index.php" /> goSICILY.com </a> |
+<a class="footerNavigation" href="http://www.arteutile.net/art_holiday/index.php" /> Holiday in Tuscany </a> |
+<a class="footerNavigation" href="http://www.arteutile.net/links5.htm" /> ANTIQUES links </a>
+
+ | <a class="footerNavigation" href="http://www.arteutile.net/antico/pdf_catalogue_info.php" /> PDF Catalogue </a> |
+
+ | <a class="footerNavigation" href="http://www.arteutile.net/antico/antiquelist/enindex.html" /> Site Map </a> |
+
+
+</td>
+<td class="bot_right_cell" align="right" valign="middle"><a class="footerNavigation" title="clickfoundation.com : ecommerce crouch end london uk" href="http://www.clickfoundation.com">site by : clickfoundation.com</a></td>
+</tr>
+<tr>
+<td class="bot_left_cell" align="left" valign="middle">
+</td>
+<td class="bot_right_cell" align="right" valign="middle">
+
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table><!-- footer_eof //-->
+<br>
+</body>
+</html>

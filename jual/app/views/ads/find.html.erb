@@ -1,0 +1,12 @@
+<% for ad in @ads %>
+<tr>
+<td><%=h ad.heading %></td>
+<td><%=h ad.name %></td>
+
+
+<td><a href="/ads/<%=ad.id%>">Find</td>
+<td><a href="/ads/<%=ad.id %>/edit">Edit</a></td>
+<td><a href="/ads/<%=ad.id%>/delete">Delete</a></td>
+
+</tr>
+<% end %>
