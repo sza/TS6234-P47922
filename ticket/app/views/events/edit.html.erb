@@ -1,0 +1,32 @@
+<h1>Editing event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :artist %><br />
+    <%= f.text_field :artist %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :"Price from" %><br />
+    <%= f.text_field :price_low %>
+  </p>
+  <p>
+    <%= f.label :"To" %><br />
+    <%= f.text_field :price_high %>
+  </p>
+  <p>
+    <%= f.label :"Date" %><br />
+    <%= f.date_select :event_date %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @event %> |
+<%= link_to 'Back', events_path %>

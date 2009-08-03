@@ -1,0 +1,574 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (78.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTickets (20090714132323)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "tickets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "seat_id_seq" varchar(255), "address" text, "price_paid" decimal, "email_address" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090714132323')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tickets")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-14 21:25:54) [GET]
+
+ActionController::RoutingError (No route matches "/ticket" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-14 21:25:54) [GET]
+
+ActionController::RoutingError (No route matches "/ticket" with {:method=>:get}):
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:25:59) [GET]
+  [4;36;1mTicket Load (16.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 1407ms (View: 1375, DB: 16) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#new (for 127.0.0.1 at 2009-07-14 21:26:08) [GET]
+Rendering template within layouts/tickets
+Rendering tickets/new
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/tickets/new]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:26:11) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#new (for 127.0.0.1 at 2009-07-14 21:27:12) [GET]
+Rendering template within layouts/tickets
+Rendering tickets/new
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tickets/new]
+
+
+Processing TicketsController#create (for 127.0.0.1 at 2009-07-14 21:27:30) [POST]
+  Parameters: {"ticket"=>{"name"=>"ct", "seat_id_seq"=>"1", "price_paid"=>"12", "address"=>"taman tenaga", "email_address"=>"ct@yahoo.com"}, "commit"=>"Create", "authenticity_token"=>"zoqOMXf9MFB+SqWZdwdR0XtDOxhR8ce96Tuv0pr9ytI="}
+  [4;36;1mTicket Create (0.0ms)[0m   [0;1mINSERT INTO "tickets" ("name", "updated_at", "seat_id_seq", "price_paid", "address", "email_address", "created_at") VALUES('ct', '2009-07-14 13:27:30', '1', 12.0, 'taman tenaga', 'ct@yahoo.com', '2009-07-14 13:27:30')[0m
+Redirected to http://localhost:3000/tickets/1
+Completed in 188ms (DB: 0) | 302 Found [http://localhost/tickets]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 21:27:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 1) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets/1]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:27:34) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#new (for 127.0.0.1 at 2009-07-14 21:27:36) [GET]
+Rendering template within layouts/tickets
+Rendering tickets/new
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets/new]
+
+
+Processing TicketsController#create (for 127.0.0.1 at 2009-07-14 21:27:57) [POST]
+  Parameters: {"ticket"=>{"name"=>"aisyah", "seat_id_seq"=>"2", "price_paid"=>"12", "address"=>"hentian kajang", "email_address"=>"aisyah@yahoo.com"}, "commit"=>"Create", "authenticity_token"=>"zoqOMXf9MFB+SqWZdwdR0XtDOxhR8ce96Tuv0pr9ytI="}
+  [4;35;1mTicket Create (0.0ms)[0m   [0mINSERT INTO "tickets" ("name", "updated_at", "seat_id_seq", "price_paid", "address", "email_address", "created_at") VALUES('aisyah', '2009-07-14 13:27:57', '2', 12.0, 'hentian kajang', 'aisyah@yahoo.com', '2009-07-14 13:27:57')[0m
+Redirected to http://localhost:3000/tickets/2
+Completed in 187ms (DB: 0) | 302 Found [http://localhost/tickets]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 21:27:57) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 2) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/tickets/2]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:27:59) [GET]
+  [4;35;1mTicket Load (16.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#new (for 127.0.0.1 at 2009-07-14 21:28:04) [GET]
+Rendering template within layouts/tickets
+Rendering tickets/new
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets/new]
+
+
+Processing TicketsController#create (for 127.0.0.1 at 2009-07-14 21:28:21) [POST]
+  Parameters: {"ticket"=>{"name"=>"zaiha", "seat_id_seq"=>"13", "price_paid"=>"13", "address"=>"rawang", "email_address"=>"zaiha@yahoo.com"}, "commit"=>"Create", "authenticity_token"=>"zoqOMXf9MFB+SqWZdwdR0XtDOxhR8ce96Tuv0pr9ytI="}
+  [4;36;1mTicket Create (0.0ms)[0m   [0;1mINSERT INTO "tickets" ("name", "updated_at", "seat_id_seq", "price_paid", "address", "email_address", "created_at") VALUES('zaiha', '2009-07-14 13:28:21', '13', 13.0, 'rawang', 'zaiha@yahoo.com', '2009-07-14 13:28:21')[0m
+Redirected to http://localhost:3000/tickets/3
+Completed in 156ms (DB: 0) | 302 Found [http://localhost/tickets]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 21:28:21) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tickets/3]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:28:23) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:47:21) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 1235ms (View: 1219, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#edit (for 127.0.0.1 at 2009-07-14 21:47:37) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+Rendering template within layouts/tickets
+Rendering tickets/edit
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/tickets/3/edit]
+
+
+Processing TicketsController#update (for 127.0.0.1 at 2009-07-14 21:47:42) [PUT]
+  Parameters: {"ticket"=>{"name"=>"zaiha", "seat_id_seq"=>"3", "price_paid"=>"13", "address"=>"rawang", "email_address"=>"zaiha@yahoo.com"}, "commit"=>"Update", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "id"=>"3"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+  [4;35;1mTicket Update (0.0ms)[0m   [0mUPDATE "tickets" SET "seat_id_seq" = '3', "updated_at" = '2009-07-14 13:47:42' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/tickets/3
+Completed in 235ms (DB: 0) | 302 Found [http://localhost/tickets/3]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 21:47:42) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets/3]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:47:44) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 204ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:56:29) [GET]
+  [4;36;1mTicket Load (15.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 15) | 200 OK [http://localhost/tickets]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTickets (20090714132323)
+Migrating to AddPhoneToTickets (20090714135611)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mALTER TABLE "tickets" ADD "phone" varchar(255)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090714135611')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("tickets")[0m
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:07) [GET]
+  [4;35;1mTicket Load (16.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 16) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:10) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:10) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:11) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:12) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:12) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:13) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 21:57:13) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:10) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:11) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:12) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:12) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:13) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:01:59) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:00) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:01) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:01) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#edit (for 127.0.0.1 at 2009-07-14 22:02:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 1) [0m
+Rendering template within layouts/tickets
+Rendering tickets/edit
+Completed in 203ms (View: 172, DB: 0) | 200 OK [http://localhost/tickets/1/edit]
+
+
+Processing TicketsController#update (for 127.0.0.1 at 2009-07-14 22:02:17) [PUT]
+  Parameters: {"ticket"=>{"name"=>"ct", "seat_id_seq"=>"1", "price_paid"=>"12", "phone"=>"0137977350", "address"=>"taman tenaga", "email_address"=>"ct@yahoo.com"}, "commit"=>"Update", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "id"=>"1"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 1) [0m
+  [4;36;1mTicket Update (0.0ms)[0m   [0;1mUPDATE "tickets" SET "phone" = '0137977350', "updated_at" = '2009-07-14 14:02:17' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/tickets/1
+Completed in 172ms (DB: 0) | 302 Found [http://localhost/tickets/1]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 22:02:17) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 1) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets/1]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:19) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#edit (for 127.0.0.1 at 2009-07-14 22:02:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 2) [0m
+Rendering template within layouts/tickets
+Rendering tickets/edit
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/tickets/2/edit]
+
+
+Processing TicketsController#update (for 127.0.0.1 at 2009-07-14 22:02:28) [PUT]
+  Parameters: {"ticket"=>{"name"=>"aisyah", "seat_id_seq"=>"2", "price_paid"=>"12", "phone"=>"013546272", "address"=>"hentian kajang", "email_address"=>"aisyah@yahoo.com"}, "commit"=>"Update", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "id"=>"2"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 2) [0m
+  [4;35;1mTicket Update (0.0ms)[0m   [0mUPDATE "tickets" SET "phone" = '013546272', "updated_at" = '2009-07-14 14:02:28' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/tickets/2
+Completed in 172ms (DB: 0) | 302 Found [http://localhost/tickets/2]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 22:02:28) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 2) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/tickets/2]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:30) [GET]
+  [4;35;1mTicket Load (15.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#edit (for 127.0.0.1 at 2009-07-14 22:02:32) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+Rendering template within layouts/tickets
+Rendering tickets/edit
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/tickets/3/edit]
+
+
+Processing TicketsController#update (for 127.0.0.1 at 2009-07-14 22:02:39) [PUT]
+  Parameters: {"ticket"=>{"name"=>"zaiha", "seat_id_seq"=>"3", "price_paid"=>"13", "phone"=>"012956741", "address"=>"rawang", "email_address"=>"zaiha@yahoo.com"}, "commit"=>"Update", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "id"=>"3"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+  [4;36;1mTicket Update (16.0ms)[0m   [0;1mUPDATE "tickets" SET "phone" = '012956741', "updated_at" = '2009-07-14 14:02:39' WHERE "id" = 3[0m
+Redirected to http://localhost:3000/tickets/3
+Completed in 172ms (DB: 16) | 302 Found [http://localhost/tickets/3]
+
+
+Processing TicketsController#show (for 127.0.0.1 at 2009-07-14 22:02:39) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" WHERE ("tickets"."id" = 3) [0m
+Rendering template within layouts/tickets
+Rendering tickets/show
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets/3]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:02:41) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateTickets (20090714132323)
+Migrating to AddPhoneToTickets (20090714135611)
+Migrating to CreateEvents (20090714141057)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "artist" varchar(255), "description" text, "price_low" decimal, "price_high" decimal, "event_date" date, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090714141057')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("tickets")[0m
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:13:32) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:13:33) [GET]
+  [4;36;1mTicket Load (0.0ms)[0m   [0;1mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing TicketsController#index (for 127.0.0.1 at 2009-07-14 22:13:35) [GET]
+  [4;35;1mTicket Load (0.0ms)[0m   [0mSELECT * FROM "tickets" [0m
+Rendering template within layouts/tickets
+Rendering tickets/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/tickets]
+
+
+Processing EventsController#index (for 127.0.0.1 at 2009-07-14 22:13:41) [GET]
+  [4;36;1mEvent Load (0.0ms)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/events]
+
+
+Processing EventsController#new (for 127.0.0.1 at 2009-07-14 22:14:02) [GET]
+Rendering template within layouts/events
+Rendering events/new
+Completed in 515ms (View: 500, DB: 0) | 200 OK [http://localhost/events/new]
+
+
+Processing EventsController#create (for 127.0.0.1 at 2009-07-14 22:14:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "event"=>{"artist"=>"raihan", "price_low"=>"50", "price_high"=>"100", "event_date(1i)"=>"2009", "description"=>"nasyeed", "event_date(2i)"=>"7", "event_date(3i)"=>"14"}}
+  [4;35;1mEvent Create (15.0ms)[0m   [0mINSERT INTO "events" ("artist", "price_low", "updated_at", "price_high", "description", "event_date", "created_at") VALUES('raihan', 50.0, '2009-07-14 14:14:21', 100.0, 'nasyeed', '2009-07-14', '2009-07-14 14:14:21')[0m
+Redirected to http://localhost:3000/events/1
+Completed in 188ms (DB: 15) | 302 Found [http://localhost/events]
+
+
+Processing EventsController#show (for 127.0.0.1 at 2009-07-14 22:14:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mEvent Load (0.0ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 1) [0m
+Rendering template within layouts/events
+Rendering events/show
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/events/1]
+
+
+Processing EventsController#index (for 127.0.0.1 at 2009-07-14 22:14:23) [GET]
+  [4;35;1mEvent Load (15.0ms)[0m   [0mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 31ms (View: 0, DB: 15) | 200 OK [http://localhost/events]
+
+
+Processing EventsController#new (for 127.0.0.1 at 2009-07-14 22:14:27) [GET]
+Rendering template within layouts/events
+Rendering events/new
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/events/new]
+
+
+Processing EventsController#create (for 127.0.0.1 at 2009-07-14 22:14:53) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "event"=>{"artist"=>"senario", "price_low"=>"20", "price_high"=>"30", "event_date(1i)"=>"2009", "description"=>"comedy", "event_date(2i)"=>"7", "event_date(3i)"=>"15"}}
+  [4;36;1mEvent Create (0.0ms)[0m   [0;1mINSERT INTO "events" ("artist", "price_low", "updated_at", "price_high", "description", "event_date", "created_at") VALUES('senario', 20.0, '2009-07-14 14:14:53', 30.0, 'comedy', '2009-07-15', '2009-07-14 14:14:53')[0m
+Redirected to http://localhost:3000/events/2
+Completed in 172ms (DB: 0) | 302 Found [http://localhost/events]
+
+
+Processing EventsController#show (for 127.0.0.1 at 2009-07-14 22:14:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mEvent Load (0.0ms)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 2) [0m
+Rendering template within layouts/events
+Rendering events/show
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/events/2]
+
+
+Processing EventsController#index (for 127.0.0.1 at 2009-07-14 22:14:55) [GET]
+  [4;36;1mEvent Load (0.0ms)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 94ms (View: 62, DB: 0) | 200 OK [http://localhost/events]
+
+
+Processing EventsController#new (for 127.0.0.1 at 2009-07-14 22:14:58) [GET]
+Rendering template within layouts/events
+Rendering events/new
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/events/new]
+
+
+Processing EventsController#create (for 127.0.0.1 at 2009-07-14 22:15:50) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"JDjsZqd4pjb7VRvU4lTpQJj3ph4S4JdVPY2JN1ZrzMk=", "event"=>{"artist"=>"wings", "price_low"=>"45", "price_high"=>"60", "event_date(1i)"=>"2009", "description"=>"rock", "event_date(2i)"=>"8", "event_date(3i)"=>"18"}}
+  [4;35;1mEvent Create (0.0ms)[0m   [0mINSERT INTO "events" ("artist", "price_low", "updated_at", "price_high", "description", "event_date", "created_at") VALUES('wings', 45.0, '2009-07-14 14:15:50', 60.0, 'rock', '2009-08-18', '2009-07-14 14:15:50')[0m
+Redirected to http://localhost:3000/events/3
+Completed in 187ms (DB: 0) | 302 Found [http://localhost/events]
+
+
+Processing EventsController#show (for 127.0.0.1 at 2009-07-14 22:15:50) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mEvent Load (0.0ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 3) [0m
+Rendering template within layouts/events
+Rendering events/show
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/events/3]
+
+
+Processing EventsController#index (for 127.0.0.1 at 2009-07-14 22:15:52) [GET]
+  [4;35;1mEvent Load (0.0ms)[0m   [0mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/events]
