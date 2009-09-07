@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.3)  17 SEP 2009 16:37
+This is pdfTeX, Version 3.1415926-1.40.9 (MiKTeX 2.7) (preloaded format=pdflatex 2009.8.3)  13 OCT 2009 18:41
 entering extended mode
 **paper_review.tex
 (paper_review.tex
@@ -127,11 +127,7 @@ Before submitting the final camera ready copy, remember to:
 
 [2
 
-] (paper_review.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (paper_review.aux) ) 
 Here is how much of TeX's memory you used:
  951 strings out of 95304
  16519 string characters out of 1183071
@@ -139,12 +135,12 @@ Here is how much of TeX's memory you used:
  4219 multiletter control sequences out of 110000
  34691 words of font info for 64 fonts, out of 3000000 for 5000
  17 hyphenation exceptions out of 8191
- 26i,8n,19p,1195b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.7/font
-s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.7/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on paper_review.pdf (2 pages, 53123 bytes).
+ 26i,8n,19p,495b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.7/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files/MiKTeX 2.7/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
+iles/MiKTeX 2.7/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.7/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on paper_review.pdf (2 pages, 51231 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
