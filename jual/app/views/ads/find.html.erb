@@ -1,12 +1,16 @@
-<% for ad in @ads %>
 <tr>
-<td><%=h ad.heading %></td>
-<td><%=h ad.name %></td>
 
+<p></p><p></p>
+<p><h1>Senarai Carian :</p></h1>
 
-<td><a href="/ads/<%=ad.id%>">Find</td>
-<td><a href="/ads/<%=ad.id %>/edit">Edit</a></td>
-<td><a href="/ads/<%=ad.id%>/delete">Delete</a></td>
+<p>	
+ <% for ad in @ads %>
+ <%= image_tag  ad.img_url,:size=>'200x250'%><p></p>	
+ <%=h ad.heading %>
 
-</tr>
-<% end %>
+</p>
+<a href="/ads/<%=ad.id%>">|Lihat|
+<a href="/ads/<%=ad.id%>/edit">|Kemaskini|</a>
+<a href="/ads/<%=ad.id%>/delete">|Padam|</a>
+
+<% end %><p></p><p></p><p></p></tr>

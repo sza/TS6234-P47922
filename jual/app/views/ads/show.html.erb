@@ -1,8 +1,9 @@
-<p><br>Perincian barangan beserta gambar :</br><p>
-
+<tr>
+<p><h1>Perincian barangan :</h1><p>
 
 <p>
   <img src="/barang/<%= @ad.img_url %>"/>
+  
 </p>
 <p>
   <b>Nama Penjual:</b><%= @ad.name %>
@@ -29,4 +30,4 @@
 
 <% form_for(@ad,:url=>{:action=>'edit'}) do |f| %>
  <p><%= f.submit "Kemaskini" %></p>
-<% end %>
+<% end %></tr>

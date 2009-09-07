@@ -1,0 +1,32 @@
+<p><br>Perincian barangan beserta gambar :</br><p>
+
+
+<p>
+  <img src="/barang/<%= @ad.img_url %>"/>
+</p>
+<p>
+  <b>Nama Penjual:</b><%= @ad.name %>
+ </p>
+ <p>
+  <b>Email:</b><%= @ad.email %>
+ </p>
+ <p>
+  <b>Nombor Telefon:</b><%= @ad.phone_number %>
+ </p>
+ <p>
+  <b>Diskaun:</b><%= @ad.post_code %>
+ </p>
+ <p>
+  <b>Barangan:</b><%= @ad.heading %>
+ </p>
+<p>
+  <b>Perincian:</b><%= @ad.ad_text %>
+</p>
+<p>
+  <b>Harga RM:</b><%= @ad.price %>
+</p>
+
+
+<% form_for(@ad,:url=>{:action=>'edit'}) do |f| %>
+ <p><%= f.submit "Kemaskini" %></p>
+<% end %>

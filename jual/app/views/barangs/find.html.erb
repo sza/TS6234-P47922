@@ -1,0 +1,15 @@
+<% for ad in @ads %>
+<tr>
+
+<td>
+	<%= image_tag ad.img_url%>	
+	<%=h ad.heading %>
+	
+</td>
+
+
+<td><a href="/ads/<%=ad.id%>">Find</td><p></p>
+<td><a href="/ads/<%=ad.id%>/edit">Edit</a></td>
+<td><a href="/ads/<%=ad.id%>/delete">Delete</a></td>
+</tr>
+<% end %>

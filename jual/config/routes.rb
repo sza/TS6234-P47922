@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+   map.connect '/barangs/', :controller=>'barangs', :action=>'index'
    map.connect '/ads/:id/delete', :controller=>'ads', :action=>'destroy'
    map.connect '/ads/:id/edit', :controller=>'ads', :action=>'edit'
    map.connect '/ads/:id/update', :controller=>'ads', :action=>'update'

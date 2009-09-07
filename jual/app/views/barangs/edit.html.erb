@@ -1,0 +1,18 @@
+<h1>Kemaskini : <%= @ad.name %></h1>
+<% form_for(@barang,:url=>{:action=>'update'}) do |f| %>
+
+  <p><b>Nama Penjual</b><br /><%= f.text_field :name %></p>
+  <p><b>Email</b><br /><%= f.text_field :email %></p>
+  <p><b>Barangan</b><br /><%= f.text_field :heading %></p>
+  <p><b>Perincian</b><br /><%= f.text_area :ad_text %></p>
+  <p><b>Nombor Telefon</b><br /><%= f.text_field :phone_number %></p> 
+  <p><b>Diskaun</b><br /><%= f.text_field :post_code %></p>
+  <p><b>Harga RM</b><br /><%= f.text_field :price %></p>
+  <p><b>Imej</b><br /><%= f.text_field :img_url %></p>
+  <p><%= f.submit "Kemaskini" %></p>
+
+
+<% end %>
+<% form_for(@barang,:url=>{:action=>'destroy'}) do |f| %>
+ <p><%= f.submit "Hapus" %></p>
+<% end %>

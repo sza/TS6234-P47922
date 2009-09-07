@@ -1,0 +1,25 @@
+{ 
+ 
+var google_ads = new Array(); 
+var google_ad; 
+var google_radlinks = new Array(); 
+var google_radlink; 
+var google_info = new Object(); 
+google_ad = new Object(); 
+google_ad.n = 1; 
+google_ad.type = "image"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=B6wohz_6uSojjNYro6wO-3ay-D6_0-ZAB5e-l_wvRl4u8K4CQThABGAEg4aXzETgAUJSL_LH______wFgy5uChcAXoAGto_v8A7IBDHd3dy5tdWRhaC5teboBCTcyOHg5MF9qc8gBAtoBImh0dHA6Ly93d3cubXVkYWgubXkvbGk_Y2E9OV9zJnRoPTGAAgGpAjm2nxl1UYE-wAIByAKNx74JqAMB6AOABugDrwboA88B6APmAegDL_UDAAAABPUDBAAAAA&amp;num=1&amp;sig=AGiWqtyV0xKp73wsLEKzP6E4a6I3eJmOww&amp;client=ca-scm-mudah_js&amp;adurl=http://www.prioritypass.com/HKPPCGLENT089"; 
+google_ad.visible_url = "www.prioritypass.com"; 
+google_ad.image_url = "http://pagead2.googlesyndication.com/pagead/imgad?id=CNzps47KifH5uQEQ2AUYTzIImOZ7wVvJ4hQ"; 
+google_ad.image_width = "728"; 
+google_ad.image_height = "79"; 
+google_ads[0] = google_ad; 
+if (window.google_ad_request_done) { 
+google_ad_request_done(google_ads); 
+} 
+if (window.google_radlink_request_done) { 
+google_radlink_request_done(google_radlinks); 
+} 
+}

@@ -1,12 +1,27 @@
 <h1>Senarai Barangan</h1>
 <p>Sila klik pada barangan untuk lihat perincian</p>
 
-<ul>
-
+<div id="product-list">
+<table>
 <% for ad in @ads %>
+<tr class="<%= cycle('list-line-odd', 'list-line-even') %>">
+<td>
 
-  <li><a href="/ads/<%= ad.id %>">  <%= ad.heading %>  <a>-->RM</a> <%= ad.price %> 
+
+  <li>
+  	<p>
+  	<td>
+  	<%= image_tag ad.img_url,:size=>'80x90',:class => 'list-image' %>
+  	</td>
+ 
+  		<p></p>
+  	<td>
+  	<a href="/ads/<%= ad.id %>">  <%= ad.heading %>  <a>-->RM</a> <%= ad.price %> 
+  	</td>
+  	</p>
+  	
   </a>
   </li>
+</td>
+
 <% end %>
-</ul>

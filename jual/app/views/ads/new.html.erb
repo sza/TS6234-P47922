@@ -1,6 +1,8 @@
-<h1>Pendaftaran Barangan Baru</h1> 
+<tr><h1>Pendaftaran Barangan Baru</h1> 
 <p><b>Peringatan: Barangan yang dimasukkan hanya akan dipaparkan selama dua bulan sahaja. Selepas jangka masa tersebut, penjual dikehendaki mendaftarkan semula barangan tersebut untuk diiklankan.</b></p>
 <% form_for(@ad,:url=>{:action=>'create'}) do |f| %>
+	
+	<%=f.error_messages%>
   <p><b>Nama Penjual</b><br /><%= f.text_field :name %></p>
   <p><b>Email</b><br /><%= f.text_field :email %></p>
   <p><b>Barangan</b><br /><%= f.text_field :heading %></p>
@@ -9,5 +11,9 @@
   <p><b>Diskaun</b><br /><%= f.text_field :post_code %></p>
   <p><b>Harga RM</b><br /><%= f.text_field :price %></p>
   <p><b>Imej</b><br /><%= f.text_field :img_url %></p>
+  <p><label for="ads_picture">Picture</label><br />
+<%= file_field 'ads', 'pictureimg' %></p>
+  
+  
   <p><%= f.submit "Daftar" %></p>
-<% end %>
+<% end %></tr>

@@ -1,0 +1,417 @@
+/*---------------------------------------------------- 
+    Blocket CSS index
+    Author: B Locket AB 2006
+    Version: 19 February, 2008
+ ----------------------------------------------------- */
+
+/* Page 
+----------------------------------------------------- */
+* {
+	margin:0;
+	padding:0;       
+}
+
+.Page {
+	width:734px;
+	padding-top:5px;
+	position:relative;
+	margin-left:40px;	 
+}
+
+/* TableContent 
+----------------------------------------------------- */
+.TableContent {
+	width:100%;	
+	margin-top:0px;
+}
+
+.TableContent td {
+	position:relative;
+	vertical-align:top;
+}
+
+.TableContent .ColumnLeft {
+        width:320px;
+}
+
+#TableContent .ColumnLeft #startpage_ie {
+	position:absolute; 
+	margin:300px 0 0 -220px; 
+	text-align:center; font-size:8pt;
+}
+
+#TableContent .ColumnLeft #startpage_ff {
+	position:absolute; 
+	margin:300px 0 0 -90px; 
+	text-align:center; 
+	font-size:8pt;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info #ff2_fix {
+	position:absolute; 
+	height:35px; 
+	width:35px; 
+	margin-left:-50px;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info {
+	position:absolute; 
+	background:transparent url(/img/startpage_ff.png) 
+	no-repeat; 
+	width:232px; 
+	height:180px; 
+	margin:230px 0 0 -100px;
+	text-align:center;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info .logo {
+	padding:30px 0 0 0;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info .icon {
+	border:2px dashed #b5af83; 
+	margin-right:7px;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info .infotext {
+	text-align:left; 
+	padding:7px 20px 0 20px;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info .logo img {
+	padding:5px;
+}
+
+#TableContent .ColumnLeft #startpage_ff_info .close {
+	text-align:right; 
+	margin:15px 20px 0 0;
+}
+#TableContent .ColumnLeft #startpage_sf {position:absolute; margin:20px 0 0 315px; text-align:center;}
+
+.TableContent .ColumnRight {
+        text-align:center;
+        width:320px;
+        align: left;
+}
+
+/* Left column 
+----------------------------------------------------- */
+.Logo	{
+	margin-bottom:23px;
+}
+	
+.LeftColumn {
+	float:left;
+      	position:relative;
+ 	width:312px;
+      	font-size:14px;
+	line-height:18px;
+}
+
+.introduction {
+	margin:13px 0 7px -2px;
+	height:312px;
+	width:210px;
+	float:left;
+	background:transparent url(/img/post_it_note.gif) no-repeat;
+	padding:23px 40px 0px 18px;
+}
+
+*html .introduction {
+	padding-top:26px;
+}	
+
+*+html .introduction {
+	padding-top:26px;
+}
+
+.introduction a:link, .Introduction a:hover,.Introduction a:visited {
+	text-decoration: underline;
+}
+
+.introduction img {
+	margin:12px 0px 0px 0px;
+}
+
+.Post-it {
+	margin:34px 0 0 35px;
+}	
+	
+#polaroids {
+	margin-top:15px;
+	margin-left:0px;
+}
+
+.RedText {
+	color: #cc0000;
+}
+
+/* Map column 
+----------------------------------------------------- */	
+
+.map {
+	background:url(/img/malaysia_map.gif) no-repeat; 
+	height: 342px; 
+	width: 669px;
+}
+
+.map_container {
+	left:0px;
+	margin-top:25px;
+	margin-left:15px;
+	position: absolute;
+}
+
+/*.Map {background:url(/img/malaysia.gif) no-repeat;height: 342px;width: 669px;display: inline;float: left;}*/
+
+
+#area_highlight {
+	background:url(/img/map_highlight.gif) no-repeat;
+	height:342px; 
+	width:669px;
+	z-index:-10;
+}	
+
+/* Right column 
+----------------------------------------------------- */
+.AreaList {
+	display: inline;
+	float: right;
+}
+
+.AreaList th {
+	font-weight: normal;font-size: 10px;
+}
+.AreaList td {
+	padding-left: 5px;padding-bottom: 1px;
+}
+.AreaList a {
+	font-size: 13px;line-height: 16px;text-decoration: none;
+}
+
+
+.RegionList {
+	font-size:12px;
+	line-height:26px;
+	list-style-type:none;
+	float:left;
+	text-align:right;
+}
+
+.RegionNumber	{
+	font-size:10px;
+	line-height:9px;
+}
+
+.RegionList a:visited {
+	color:#336699;
+	text-decoration:none;
+}
+
+.AdsCounter {
+	color:#cc0000;
+	font-weight:bold;
+}
+
+/* Notes Container 
+------------------------------------------------------ */
+
+.Notes {
+        width:215px;
+        height:300px;
+        position:absolute;
+        float:right;
+        margin:-85px 0px 0px -200px;
+}
+
+.Notes img {
+	margin: 15px 0px 0px 0px;
+}
+
+
+.Notes .NotesHeader {
+	background:url(/img/notice_yellow_top.gif); 
+	padding: 15px 10px 0px 15px; 
+	height: 25px; 
+	font-size:10px; 
+	font-weight:bold; 
+	margin:0px 0px 0px 0px;
+}
+
+*+html .Notes .NotesHeader {
+        height: 32px;
+}
+
+.Notes .NotesText {
+	background:url(/img/notice_yellow_bg.gif) repeat-y; 
+	padding:0px 10px 0 15px; 
+	margin:0px 0px 0px 0px;
+        height: 170px;
+}
+
+
+.Notes .NotesFooter {
+	background:url(/img/notice_yellow_bottom.gif) no-repeat; 
+	padding: 15px 10px 0px 15px; 
+	height: 50px; 
+	font-size:10px;
+	font-weight: bold;
+        margin:0px 0px 0px 0px;
+}
+
+.Notes h1 {
+	font-size: 10pt; 
+	text-align:center; 
+	padding: 0px 0px 0px 0px; 
+	margin: 0px 0px 0px 0px;
+}
+
+.Notes a {
+	text-decoration: none; 
+	color: #cc0000;
+}
+
+/* Footer
+    ----------------------------------------------------- */
+#footer {
+        font-size:10px;
+        clear:both;
+        padding:0px 0px 0px 40px;
+        white-space:nowrap;
+        }
+
+#footer a:link, #footer a:hover, #footer a:visited      {
+        font-weight:normal;
+        font-size:10px;
+        color: #336699;
+        }
+
+#footer .LetsDance {
+        margin:0 4px 2px 0;
+        vertical-align: middle;
+}
+
+#footer #copyright {
+        float:right;
+}
+
+#footer .footerline {
+        border-bottom:1px solid #CCCCCC;
+        width:730px;
+        margin: 5px 0 5px 0;
+}
+
+*+html #footer .footerline {
+        border-bottom:1px solid #CCCCCC;
+        width:730px;
+        margin-top: -5px;
+}
+
+*html #footer .footerline {
+        border-bottom:1px solid #CCCCCC;
+        width:730px;
+        margin-top: -6px;
+}
+
+.pipe	{
+	color: #999999;	
+	padding:0 5px 0 5px;
+}
+
+.totalads {
+/*    word-spacing: -0.2em; */
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+#index_logo {
+	margin-top:5px;
+	margin-left:-20px;	
+	background-image:url(/img/mudah_logo_index.gif);
+	background-repeat:no-repeat;
+	width:340px;
+	height:98px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+*+html #index_logo {
+        margin-left:0;
+}
+
+*html #index_logo {
+        margin-left:0;
+}
+
+
+.piva {
+	color: #333; 
+	font-size: 80%
+}
+
+.line {
+	width:760px;
+	height:1px;
+	border-bottom:1px solid #ccc;
+	clear:both;
+	margin:15px 0px 5px;
+}
+
+#index_story {
+	font-size:11px;
+	clear:both;
+	padding-bottom:10px;
+	width:500px;
+}
+
+#index_story {
+	margin-left:120px;
+	margin-right:2px;
+}
+
+#index_story a:link, #index_story a:hover, #index_story a:visited {
+	font-weight:normal;
+	font-size:10px;
+	color: #336699;
+}
+
+.top_banner {
+	/*margin:10px 0px 0px 35px;
+	padding:25px 5px 5px 0px;*/
+	font-weight:normal;
+	font-size:95%;
+	color:black;
+}
+
+*html .icon_container {
+        margin:30px 0px 0px -530px;
+}
+
+*+html .icon_container {
+        margin:30px 0px 0px -530px;
+}
+
+.icon_container {
+        margin:30px 0px 0px -410px;
+        position:absolute;
+}
+
+.category_icons {
+        background:url(/img/icon.gif) no-repeat;
+        height:201px;
+        width:235px;
+}
+
+*html .insertad_container {
+        margin:10px 0px 0px -310px;
+}
+
+*+html .insertad_container {
+        margin:10px 0px 0px -310px;
+}
+
+.insertad_container {
+        margin:10px 0px 0px -175px;
+        position:absolute;
+}
+
