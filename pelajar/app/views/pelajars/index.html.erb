@@ -1,0 +1,24 @@
+<h1>Listing pelajars</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matrik</th>
+    <th>Email</th>
+  </tr>
+
+<% @pelajars.each do |pelajar| %>
+  <tr>
+    <td><%=h pelajar.name %></td>
+    <td><%=h pelajar.matrik %></td>
+    <td><%=h pelajar.email %></td>
+    <td><%= link_to 'Show', pelajar %></td>
+    <td><%= link_to 'Edit', edit_pelajar_path(pelajar) %></td>
+    <td><%= link_to 'Destroy', pelajar, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New pelajar', new_pelajar_path %>
